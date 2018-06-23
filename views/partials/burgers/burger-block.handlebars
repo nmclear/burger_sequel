@@ -1,0 +1,7 @@
+<li>
+	{{burger_name}}
+	{{!-- creates button based on if devoured is true or false --}}
+	<button class="change-dev" data-id="{{id}}" data-newdev="{{devoured}}">
+		{{#if devoured}}Eat{{else}}Re-Grill{{/if}}
+	</button>
+</li>

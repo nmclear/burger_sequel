@@ -1,0 +1,88 @@
+
+
+body {
+    background-image:
+        linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+        ), url(../img/beef-charcoal-close-up-776314.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+}
+
+h1 {
+    text-shadow: 
+                0 1px 0 #000, 
+                0 2px 0 #888,
+                0 3px 0 #444,
+                0 4px 0 #222,
+                0 5px 0 #555,
+                0 6px 1px rgba(0,0,0,.1),
+                0 0 5px rgba(0,0,0,.1),
+                0 1px 3px rgba(0,0,0,.3),
+                0 3px 5px rgba(0,0,0,.2),
+                0 5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15);
+    color: white;
+    font-size: 110px;
+    font-family: 'Londrina Solid', cursive;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    text-shadow: 4px 4px 2px #000000;
+    font-size: 40px;
+    color: white;
+    font-family: 'Londrina Solid', cursive;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+li {
+    color: white;
+    font-size: 26px;
+    list-style-type: none;
+    text-shadow: 1px 2px 2px #000000;
+    margin: 8px;
+}
+
+label{
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 3px 2px #000000;
+}
+
+button {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 8px 32px;
+    background: white;
+    color: #000;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input[type=text] {
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Londrina Solid', cursive;
+    border-radius: 16px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+input[placeholder]{
+    text-align: center;
+}
